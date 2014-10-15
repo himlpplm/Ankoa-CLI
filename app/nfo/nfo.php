@@ -112,6 +112,6 @@ function get_nfo( $video, $release_name, $source, $sourcesrt, $imdb, $forced ){ 
     }return $template; }
 
 # FINALLY
-$new_template = get_nfo( $_SERVER['argv'][1], $_SERVER['argv'][2], $_SERVER['argv'][3], $_SERVER['argv'][4], $_SERVER['argv'][5], $_SERVER['argv'][6] ); echo $new_template . "\n\n";
+$new_template = get_nfo( $_SERVER['argv'][1], $_SERVER['argv'][2], $_SERVER['argv'][3], $_SERVER['argv'][4], $_SERVER['argv'][6], $_SERVER['argv'][5] ); echo $new_template . "\n\n";
 
 ?>

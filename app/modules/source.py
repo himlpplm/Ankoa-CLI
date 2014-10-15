@@ -85,11 +85,14 @@ def release_title(deleted):
 
 # Release Year ( min: 1895 [1st movie] / max: 2080 ? )
 def release_year():
-    year = ask_year()
-    while not year or year.isdigit() is False or len(year) != 4\
-            or int(year) < 1895 or int(year) > 2080:
+    year = ""
+    m_year = ask_year()
+    while m_year and (m_year.isdigit() is False or len(m_year) != 4\
+            or int(m_year) < 1895 or int(m_year) > 2080):
         bad_year()
-        year = ask_year()
+        m_year = ask_year()
+    if m_year:
+        year = ".{0}".format(m_year)
     return year
 
 

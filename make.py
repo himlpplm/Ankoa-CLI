@@ -59,9 +59,9 @@ from user.settings import option
 def ankoa_tools(thumb, title, year, stag, mark, audiolang, prezquality,
                 titlesub, subforced, nfosource, nfoimdb, name):
     return (
-        "./make.py {0}{1}.{2}{3}{4} {1} {2} {5} {6} {7} {8} {9} {10} {11}"
+        "./make.py {0}{1}{2}{3}{4} {1} {5} {6} {7} {8} {9} {10} {11} {2}"
         .format(thumb, title, year, stag, mark, audiolang, prezquality,
-                titlesub, subforced, nfosource, nfoimdb, name))
+                titlesub, subforced, nfosource, nfoimdb, name).strip())
 
 
 # MANUAL TOOLS
@@ -71,7 +71,7 @@ def main():
     usage = make_help()
     parser = optparse.OptionParser(usage=usage)
     (options, args) = parser.parse_args()
-    if (len(args) != 5 and len(args) != 11):
+    if (len(args) != 5 and len(args) != 10 and len(args) != 11):
         parser.print_help()
         parser.exit(1)
 
@@ -86,15 +86,17 @@ def main():
 
     # AUTO TOOLS VALUES
     else:
+        year = ""
         title = sys.argv[2]
-        year = sys.argv[3]
-        audiolang = sys.argv[4]
-        prezquality = "{0} {1}".format(sys.argv[5], sys.argv[6])
-        titlesub = sys.argv[7]
-        subforced = sys.argv[8]
-        nfosource = sys.argv[9]
-        nfoimdb = sys.argv[10]
-        name = sys.argv[11]
+        audiolang = sys.argv[3]
+        prezquality = "{0} {1}".format(sys.argv[4], sys.argv[5])
+        titlesub = sys.argv[6]
+        subforced = sys.argv[7]
+        nfosource = sys.argv[8]
+        nfoimdb = sys.argv[9]
+        name = sys.argv[10]
+        if (len(args) == 11):
+            year = sys.argv[11]
 
     # Release Size & torrent pieces
     def check_size():
@@ -139,7 +141,7 @@ def main():
                             nfoimdb, thumb, name, source[:-4])
 
             zipp = "cd {0} && zip -r {3}.zip -m {3}*.torrent "\
-                   "{3}.nfo {3}.txt {1}.{2}*.log {3}.png"\
+                   "{3}.nfo {3}.txt {1}{2}*.log {3}.png"\
                    .format(thumb, title, year, source.split('/')[-1][:-4])
 
         # Tools without prez
@@ -147,13 +149,13 @@ def main():
             prezz = "&& ./imgur.py {0}.png ".format(source[:-4])
 
             zipp = "cd {0} && zip -r {3}.zip -m {3}*.torrent "\
-                   "{3}.nfo {1}.{2}*.log {3}.png"\
+                   "{3}.nfo {1}{2}*.log {3}.png"\
                    .format(thumb, title, year, source.split('/')[-1][:-4])
 
         # Return Tools
         return (
             "./thumbnails.py {3} 5 2 {4}&& ./nfogen.sh {3} {5} {6} {7} http:"
-            "//www.imdb.com/title/tt{8} && rm -f {0}{1}.{2}*.mbtree && cd {0}"
+            "//www.imdb.com/title/tt{8} && rm -f {0}{1}{2}*.mbtree && cd {0}"
             " && mktorrent -a {9} -p -t 8 -l {10} {3} && {11}"
             .format(thumb, title, year, source, prezz, nfosource,
                     titlesub, subforced, nfoimdb, announce, pieces, zipp))
@@ -172,7 +174,8 @@ def main():
                 os.system(manual_tools())
 
         # Run auto tools
-        elif (os.path.isfile(sys.argv[1]) is True and len(args) == 11):
+        elif (os.path.isfile(sys.argv[1]) is True
+                and (len(args) == 10 or len(args) == 11)):
             os.system(auto_tools())
 
         # Source not found

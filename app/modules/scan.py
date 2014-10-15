@@ -108,9 +108,9 @@ def source_scan(source, title, year):
                 hb = smart_str(commands.getoutput("{0}".format(scan[1])))
 
             # Write infos
-            hb_out = file("{0}{1}.{2}_scan.txt"
+            hb_out = file("{0}{1}{2}_scan.txt"
                           .format(thumb, title, year), "w").write(hb)
-            hb_data = file("{0}{1}.{2}_scan.txt"
+            hb_data = file("{0}{1}{2}_scan.txt"
                            .format(thumb, title, year), "r").readlines()
 
             # Run HANDBRAKE Scan
@@ -134,7 +134,7 @@ def source_scan(source, title, year):
                     if ("Duration:" in lines or "Stream #" in lines):
                         print lines.strip().replace('\n', '')
 
-            os.system("rm -f {0}{1}.{2}_scan.txt".format(thumb, title, year))
+            os.system("rm -f {0}{1}{2}_scan.txt".format(thumb, title, year))
 
         # Scan Error
         except (OSError) as e:
@@ -152,14 +152,14 @@ def ffmpeg_scan_tracks(source, title, year):
     if (scan2 == "y"):
         try:
             hb = smart_str(commands.getoutput("{0}".format(scan[1])))
-            hb_out = file("{0}{1}.{2}_scan.txt"
+            hb_out = file("{0}{1}{2}_scan.txt"
                           .format(thumb, title, year), "w").write(hb)
-            hb_data = file("{0}{1}.{2}_scan.txt"
+            hb_data = file("{0}{1}{2}_scan.txt"
                            .format(thumb, title, year), "r").readlines()
             for lines in hb_data:
                 if ("Stream #" in lines):
                     print lines.strip().replace('\n', '')
-            os.system("rm -f {0}{1}.{2}_scan.txt".format(thumb, title, year))
+            os.system("rm -f {0}{1}{2}_scan.txt".format(thumb, title, year))
 
         # Scan Error
         except OSError as e:
@@ -174,16 +174,16 @@ def scan_autocrop(source, title, year):
     if (scan_crop == "y"):
         try:
             hb = smart_str(commands.getoutput("{0}".format(scan[0])))
-            hb_out = file("{0}{1}.{2}_scan.txt"
+            hb_out = file("{0}{1}{2}_scan.txt"
                           .format(thumb, title, year), "w").write(hb)
-            hb_data = file("{0}{1}.{2}_scan.txt"
+            hb_data = file("{0}{1}{2}_scan.txt"
                            .format(thumb, title, year), "r").readlines()
 
             for lines in hb_data:
                 if ("size:" in lines or "autocrop" in lines):
                     print lines.strip().replace('\n', '')
 
-            os.system("rm -f {0}{1}.{2}_scan.txt".format(thumb, title, year))
+            os.system("rm -f {0}{1}{2}_scan.txt".format(thumb, title, year))
 
         # Scan Error
         except OSError as e:

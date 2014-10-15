@@ -120,11 +120,11 @@ def MUXING_MODE(encode_type, source, title, year, stag, folder):
     if audionum2:
         audio_2 = " {0}:{0}".format(audionum2)
     mkvextract = "cd {0} && mkdir tmp_mkv && cd tmp_mkv && mkvextract tracks"\
-                 " {1} {2}{3}{4} && mkvmerge -o {5}.{6}{7}{8} {10} {11} {12}"\
-                 " && mv {5}.{6}{7}{8} {9} && cd .. && rm -r tmp_mkv"\
+                 " {1} {2}{3}{4} && mkvmerge -o {5}{6}{7}{8} {10} {11} {12}"\
+                 " && mv {5}{6}{7}{8} {9} && cd .. && rm -r tmp_mkv"\
                  .format(thumb, source, idvid, audio_1, audio_2, title, year,
                          stag, mark, folder, idvideo, audionum, audionum2)
-    source_mkv = "{0}{1}.{2}{3}{4}".format(folder, title, year, stag, mark)
+    source_mkv = "{0}{1}{2}{3}{4}".format(folder, title, year, stag, mark)
 
     # Final remux cmds
     mkvmerge = MKVMERGE(subtype, audiotype, thumb, title, year, stag, mark,
@@ -138,7 +138,7 @@ def MUXING_MODE(encode_type, source, title, year, stag, folder):
     # Check Mkvmerge cmd
     print_mkvmerge = ask_print_mkvmerge()
     if (print_mkvmerge == "y"):
-        print mkvmerge
+        print "{0}\n{1}".format(mkvmerge, tools)
 
     return (mkvmerge, mkvextract, source_mkv, tools)
 

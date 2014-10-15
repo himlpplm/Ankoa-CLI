@@ -126,37 +126,3 @@ Author : [**grm34**](https://github.com/grm34)
     knowledge of the CeCILL-C license and that you accept its terms.
 
 ***
-### Project stats :
-
-    Filename:      Source:   Comment:   Both:   Blank:   Total:
-
-    nfo.php             33         42      21       21      117
-    ankoa.py           109         53       0       21      183
-    genprez.py         252         64      17       41      374
-    imgur.py            50         48       0       10      108
-    make.py            103         59       0       26      188
-    setup.py           143         69       0       35      247
-    thumbnails.py      129         47       6       38      220
-    system.py          139         92       0       53      284
-    events.py          218         52       1      143      414
-    inputs.py          562         56       0      267      885
-    main.py            282        112      22       91      507
-    param.py            15         63       1       15       94
-    audio.py           221         58       0       65      344
-    bitrate.py          51         49       0       12      112
-    extract.py          44         46       0       17      107
-    ffmpeg.py           26         45       0        5       76
-    mkvmerge.py        116         60       0       32      208
-    ratio.py           113         58       0       30      201
-    scan.py            104         58       3       26      191
-    source.py           92         55       0       25      172
-    subs.py            223         69      12       59      363
-    video.py           130         64       0       39      233
-    x264.py            253         83       0       50      386
-    style.py            58         43      31       14      146
-    settings.py          9         56       0        5       70
-    nfogen.sh           42         46       1       11      100
-
-    [ Totals ] :      3506       1547     125     1152     6330
-
-***
