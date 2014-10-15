@@ -15,7 +15,7 @@ AnkoA v3.2.5
 
 ## How to install AnkoA ?
 
-Take a tour on the [**wiki**](https://github.com/grm34/AnkoA/wiki)
+Take a tour on the [**wiki**](https://github.com/AnkoA/AnkoA/wiki)
 
 Chan IRC : **irc.chibi.in/6667 #AnkoA**
 
@@ -58,7 +58,9 @@ Chan IRC : **irc.chibi.in/6667 #AnkoA**
 
 ## Version :
 
-Take a tour on the [**changelog**](https://github.com/grm34/AnkoA/wiki/changelog)
+Take a tour on the [**changelog**](https://github.com/AnkoA/AnkoA/wiki/changelog)
+
+Author : [**grm34**](https://github.com/grm34)
 
 #### Thanks for assistance and contributions :
 
@@ -70,15 +72,15 @@ Take a tour on the [**changelog**](https://github.com/grm34/AnkoA/wiki/changelog
 
 #### Links :
 
-* [AnkoA wiki](https://github.com/grm34/AnkoA/wiki)
-* [Install or update AnkoA](https://github.com/grm34/AnkoA/wiki/Install-or-update-AnkoA)
-* [Compile Multimedia Environment](https://github.com/grm34/AnkoA/wiki/Compile-Multimedia-Environment)
-* [AnkoA global usage](https://github.com/grm34/AnkoA/wiki/AnkoA-global-usage)
-* [How to crop with AnkoA](https://github.com/grm34/AnkoA/wiki/How-to-crop-with-AnkoA)
-* [How to use subtitles with AnkoA](https://github.com/grm34/AnkoA/wiki/How-to-use-subtitles-with-AnkoA)
-* [AnkoA changelog](https://github.com/grm34/AnkoA/wiki/Changelog)
+* [AnkoA wiki](https://github.com/AnkoA/AnkoA/wiki)
+* [Install or update AnkoA](https://github.com/AnkoA/AnkoA/wiki/Install-or-update-AnkoA)
+* [Compile Multimedia Environment](https://github.com/AnkoA/AnkoA/wiki/Compile-Multimedia-Environment)
+* [AnkoA global usage](https://github.com/AnkoA/AnkoA/wiki/AnkoA-global-usage)
+* [How to crop with AnkoA](https://github.com/AnkoA/AnkoA/wiki/How-to-crop-with-AnkoA)
+* [How to use subtitles with AnkoA](https://github.com/AnkoA/AnkoA/wiki/How-to-use-subtitles-with-AnkoA)
+* [AnkoA changelog](https://github.com/AnkoA/AnkoA/wiki/Changelog)
 * [Video demonstration](https://www.youtube.com/watch?v=R_4gfRlgkak&feature=youtu.be)
-* [NFO example](https://github.com/grm34/AnkoA/wiki/NFO-Example)
+* [NFO example](https://github.com/AnkoA/AnkoA/wiki/NFO-Example)
 
 ***
 ### License :
