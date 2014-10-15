@@ -158,4 +158,3 @@ Take a tour on the [**changelog**](https://github.com/grm34/AnkoA/wiki/changelog
     [ Totals ] :      3506       1547     125     1152     6330
 
 ***
-
