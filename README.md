@@ -64,11 +64,11 @@ Author : [**grm34**](https://github.com/grm34)
 
 #### Thanks for assistance and contributions :
 
-* [@thibs](https://github.com/thibs7777777)
-* [@Rockweb](https://github.com/Rockweb)
-* [@c0ding](https://github.com/c0ding)
-* [@Hydrog3n](https://github.com/Hydrog3n)
-* [@speedy76](https://github.com/speedy76)
+* [**@thibs**](https://github.com/thibs7777777)
+* [**@Rockweb**](https://github.com/Rockweb)
+* [**@c0ding**](https://github.com/c0ding)
+* [**@Hydrog3n**](https://github.com/Hydrog3n)
+* [**@speedy76**](https://github.com/speedy76)
 
 #### Wiki Links :
 
