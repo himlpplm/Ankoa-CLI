@@ -100,7 +100,7 @@ function get_nfo( $video, $release_name, $source, $sourcesrt, $imdb, $forced ){ 
 
     // SUBTITLES INFOS
     $tags['S_F'] = isset( $media['Text']['format'] ) ? $media['Text']['format'] : ( isset( $media['Text #1']['format'] ) ? $media['Text #1']['format'] : 'N/A' );
-    $tags['S_C'] = isset( $media['Text']['codec_id'] ) ? $media['Text']['codec_id'] : ( isset( $media['Text #1']['codec_id'] ) ? $media['Text #1']['codec_id'] : 'N/A' );
+    //$tags['S_C'] = isset( $media['Text']['codec_id'] ) ? $media['Text']['codec_id'] : ( isset( $media['Text #1']['codec_id'] ) ? $media['Text #1']['codec_id'] : 'N/A' );
 
     // RELEASE INFOS
     $tags['DATE'] = @date( 'd-m-Y' ); $tags['SOURCE'] = $source; $tags['SOURCESRT'] = $sourcesrt; $tags['B0'] = $imdb; $tags['TITRE_RELEASE'] = $release_name; $tags['FORCED'] = $forced;
