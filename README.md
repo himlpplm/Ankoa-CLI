@@ -1,7 +1,7 @@
 AnkoA v3.2.5
 =====
 
-[**FFMPEG**](https://www.ffmpeg.org/documentation.html) Command Line Easy Encoding Tools ... [**Video Demo**](https://www.youtube.com/watch?v=R_4gfRlgkak&feature=youtu.be)
+Command Line Easy Encoding Tools ... [**Video Demo**](https://www.youtube.com/watch?v=R_4gfRlgkak&feature=youtu.be)
 
 ![AnkoA](http://i.imgur.com/kIZrIVs.png)
 
@@ -12,6 +12,8 @@ AnkoA v3.2.5
     extract subtitles, thumbnails generator, nfo generator,
     prez generator, auto upload thumbnails, auto make .torrent,
     advanced x264/x265 parameters (expert mode), tracks delay (...)
+
+    This scripts principally use [**FFMPEG**](https://www.ffmpeg.org/documentation.html) and [**MKVTOOLNIX**](https://github.com/mbunkus/mkvtoolnix).
 
 ## How to install AnkoA ?
 
