@@ -70,17 +70,15 @@ Author : [**grm34**](https://github.com/grm34)
 * [@Hydrog3n](https://github.com/Hydrog3n)
 * [@speedy76](https://github.com/speedy76)
 
-#### Links :
+#### Wiki Links :
 
-* [AnkoA wiki](https://github.com/AnkoA/AnkoA/wiki)
-* [Install or update AnkoA](https://github.com/AnkoA/AnkoA/wiki/AnkoA-intall-&-update)
-* [Compile Multimedia Environment](https://github.com/AnkoA/AnkoA/wiki/Compile-Multimedia-Environment)
-* [AnkoA global usage](https://github.com/AnkoA/AnkoA/wiki/AnkoA-global-usage)
-* [How to crop with AnkoA](https://github.com/AnkoA/AnkoA/wiki/How-to-crop-with-AnkoA)
-* [How to use subtitles with AnkoA](https://github.com/AnkoA/AnkoA/wiki/How-to-use-subtitles-with-AnkoA)
-* [AnkoA changelog](https://github.com/AnkoA/AnkoA/wiki/Changelog)
-* [Video demonstration](https://www.youtube.com/watch?v=R_4gfRlgkak&feature=youtu.be)
-* [Personal NFO](https://github.com/AnkoA/AnkoA/wiki/Personal-NFO)
+* [**01. Installation ~ Update**](https://github.com/AnkoA/AnkoA/wiki/01.-Installation-~-Update)
+* [**02. Global Usage**](https://github.com/AnkoA/AnkoA/wiki/02.-Global-Usage)
+* [**03. How to crop videos**](https://github.com/AnkoA/AnkoA/wiki/03.-How-to-crop-videos)
+* [**04. How to use subtitles**](https://github.com/AnkoA/AnkoA/wiki/04.-How-to-use-subtitles)
+* [**05. Personal NFO**](https://github.com/AnkoA/AnkoA/wiki/05.-Personal-NFO)
+* [**06. Multimedia Environment**](https://github.com/AnkoA/AnkoA/wiki/06.-Multimedia-Environment)
+* [**07. Changelog**](https://github.com/AnkoA/AnkoA/wiki/07.-Changelog)
 
 ***
 ### License :
