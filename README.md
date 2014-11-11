@@ -13,7 +13,7 @@ Command Line Easy Encoding Tools ... [**Video Demo**](https://www.youtube.com/wa
     prez generator, auto upload thumbnails, auto make .torrent,
     advanced x264/x265 parameters (expert mode), tracks delay (...)
 
-This scripts principally use [**FFMPEG**](https://www.ffmpeg.org/documentation.html) and [**MKVTOOLNIX**](https://github.com/mbunkus/mkvtoolnix).
+This scripts principally use [**FFMPEG**](https://github.com/FFmpeg/FFmpeg) and [**MKVTOOLNIX**](https://github.com/mbunkus/mkvtoolnix).
 
 ## How to install AnkoA ?
 
