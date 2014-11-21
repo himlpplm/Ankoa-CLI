@@ -1,2 +1,3 @@
 /.project
 /deployment-config.json
+*.pyc
