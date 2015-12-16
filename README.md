@@ -17,7 +17,7 @@ This scripts principally use [**FFMPEG**](https://github.com/FFmpeg/FFmpeg) and 
 
 ## How to install Ankoa-CLI ?
 
-Take a tour on the [**wiki**](https://github.com/AnkoA/AnkoA/wiki)
+Take a tour on the [**wiki**](https://github.com/Ankoa/Ankoa-CLI/wiki)
 
 Chan IRC : **irc.chibi.in/6667 #AnkoA**
 
@@ -60,7 +60,7 @@ Chan IRC : **irc.chibi.in/6667 #AnkoA**
 
 ## Version :
 
-Take a tour on the [**changelog**](https://github.com/AnkoA/AnkoA/wiki/changelog)
+Take a tour on the [**changelog**](https://github.com/Ankoa/Ankoa-CLI/wiki/changelog)
 
 Author : [**grm34**](https://github.com/grm34)
 
@@ -74,13 +74,13 @@ Author : [**grm34**](https://github.com/grm34)
 
 #### Wiki Links :
 
-* [**01. Installation ~ Update**](https://github.com/AnkoA/AnkoA/wiki/01.-Installation-~-Update)
-* [**02. Global Usage**](https://github.com/AnkoA/AnkoA/wiki/02.-Global-Usage)
-* [**03. How to crop videos**](https://github.com/AnkoA/AnkoA/wiki/03.-How-to-crop-videos)
-* [**04. How to use subtitles**](https://github.com/AnkoA/AnkoA/wiki/04.-How-to-use-subtitles)
-* [**05. Personal NFO**](https://github.com/AnkoA/AnkoA/wiki/05.-Personal-NFO)
-* [**06. Multimedia Environment**](https://github.com/AnkoA/AnkoA/wiki/06.-Multimedia-Environment)
-* [**07. Changelog**](https://github.com/AnkoA/AnkoA/wiki/07.-Changelog)
+* [**01. Installation ~ Update**](https://github.com/Ankoa/Ankoa-CLI/wiki/01.-Installation-~-Update)
+* [**02. Global Usage**](https://github.com/Ankoa/Ankoa-CLI/wiki/02.-Global-Usage)
+* [**03. How to crop videos**](https://github.com/Ankoa/Ankoa-CLI/wiki/03.-How-to-crop-videos)
+* [**04. How to use subtitles**](https://github.com/Ankoa/Ankoa-CLI/wiki/04.-How-to-use-subtitles)
+* [**05. Personal NFO**](https://github.com/Ankoa/Ankoa-CLI/wiki/05.-Personal-NFO)
+* [**06. Multimedia Environment**](https://github.com/Ankoa/Ankoa-CLI/wiki/06.-Multimedia-Environment)
+* [**07. Changelog**](https://github.com/Ankoa/Ankoa-CLI/wiki/07.-Changelog)
 
 ***
 ### License :
