@@ -3,7 +3,7 @@ AnkoA v3.2.5 [![Code Health](https://landscape.io/github/Ankoa/Ankoa-CLI/master/
 
 Command Line Easy Encoding Tools ... [**Video Demo**](https://www.youtube.com/watch?v=R_4gfRlgkak&feature=youtu.be)
 
-![AnkoA](http://i.imgur.com/kIZrIVs.png)
+![Ankoa-CLI](http://i.imgur.com/kIZrIVs.png)
 
 ## Description :
 
@@ -15,7 +15,7 @@ Command Line Easy Encoding Tools ... [**Video Demo**](https://www.youtube.com/wa
 
 This scripts principally use [**FFMPEG**](https://github.com/FFmpeg/FFmpeg) and [**MKVTOOLNIX**](https://github.com/mbunkus/mkvtoolnix).
 
-## How to install AnkoA ?
+## How to install Ankoa-CLI ?
 
 Take a tour on the [**wiki**](https://github.com/AnkoA/AnkoA/wiki)
 
@@ -85,7 +85,7 @@ Author : [**grm34**](https://github.com/grm34)
 ***
 ### License :
 
-    [AnKoA] Made with love by grm34 (FRIPOUILLEJACK)
+    [AnKoa-CLI] Made with love by grm34 (FRIPOUILLEJACK)
 
     Copyright PARDO Jérémy (Sept 2014)
     Contact: jerem.pardo@gmail.com
