@@ -60,7 +60,7 @@ Chan IRC : **irc.chibi.in/6667 #AnkoA**
 
 ## Version :
 
-Take a tour on the [**changelog**](https://github.com/Ankoa/Ankoa-CLI/wiki/changelog)
+Take a tour on the [**changelog**](https://github.com/Ankoa/Ankoa-CLI/wiki/07.-Changelog)
 
 Author : [**grm34**](https://github.com/grm34)
 
