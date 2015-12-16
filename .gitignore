@@ -1,3 +1,4 @@
 /.project
 /deployment-config.json
 *.pyc
+*.sublime-*

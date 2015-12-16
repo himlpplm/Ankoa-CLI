@@ -145,8 +145,7 @@ def main():
      cover_API] = ["poster_path", "Poster", "urlPoster"]
 
     if (cover_TMDB in data_TMDB):
-        poster = "[img]https://d3gtl9l2a4fn1j.cloudfront.net/t/p/"\
-                 "original{0}[/img]"\
+        poster = "[img]https://image.tmdb.org/t/p/original{0}[/img]"\
                  .format(smart_str(data_TMDB['poster_path']))
     elif (cover_OMDB in data_OMDB):
         poster = "[img]{0}[/img]".format(smart_str(data_OMDB['Poster']))
