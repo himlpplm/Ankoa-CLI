@@ -1,4 +1,4 @@
-AnkoA v3.2.5
+AnkoA v3.2.5 [![Code Health](https://landscape.io/github/Ankoa/Ankoa-CLI/master/landscape.svg?style=flat)](https://landscape.io/github/Ankoa/Ankoa-CLI/master)
 =====
 
 Command Line Easy Encoding Tools ... [**Video Demo**](https://www.youtube.com/watch?v=R_4gfRlgkak&feature=youtu.be)
